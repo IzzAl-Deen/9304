@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+h3 {
+    color: black; 
+}
+
+h3 span.client-says {
+    color: blue;
+}
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card {
+    text-align: left;
+    border-left: 5px solid blue;
+    position: relative;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: white;
+}
+
+.testimonial-card::before {
+    content: "\201C";
+    font-size: 50px;
+    color: blue;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-weight: bold;
+}
+.stars {
+    color: gold;
+    font-size: 18px;
+}
+
+.news-section {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.news-card {
+    border: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.news-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.card-body h5 {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.card-body p {
+    font-size: 18px;
+}
+
+.card-body a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.row.mt-4 {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.row.mt-4 > .col-md-4 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+
+
+
